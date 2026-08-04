@@ -1,0 +1,8 @@
+{
+    "configuration": "JTAGAdapter=default,PSRAM=enabled,FlashMode=qio,FlashSize=8M,LoopCore=1,EventsCore=1,USBMode=hwcdc,CDCOnBoot=default,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,PartitionScheme=default,CPUFreq=240,UploadSpeed=921600,DebugLevel=none,EraseFlash=none,ZigbeeMode=default",
+    "board": "esp32:esp32:esp32s3",
+    "sketch": "ink_test.ino",
+    "port": "/dev/tty.usbmodem322401",
+    "output": "./build",
+    "programmer": "esptool"
+}
